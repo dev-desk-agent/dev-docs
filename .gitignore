@@ -1,0 +1,38 @@
+# Jekyll build files
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/
+
+# Dependency files
+Gemfile.lock
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux 
+*~
+.directory
+
+# Log files and databases
+*.log
+*.sql
+*.sqlite
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~ 
+.history/
