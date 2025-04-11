@@ -9,4 +9,4 @@ This is page of the developer trainings about improvements in process of develop
 
 ## Available Courses
 
-- [Introduction to Prompt Engineering and LLM Usage](prompt-engineering.html)
+- [Introduction to Prompt Engineering and LLM Usage](prompt-engineering/index.html)
