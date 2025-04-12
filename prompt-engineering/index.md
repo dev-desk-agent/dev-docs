@@ -28,8 +28,28 @@ Prompt engineering is the process of designing effective inputs for language mod
 
 ## Getting Started
 
-Start with the [Prerequisites](prerequisites.md) guide to set up the necessary tools for your prompt engineering practice.
+Start with the [Prerequisites](prerequisites.md) guide to set up the necessary tools for your prompt engineering practice. Most of examples below have using the Utils that does exist.
 
-##
+### Playground
+
+A playground is a system for designing prompts and testing results. For example, you can use LM Studio with your loaded model based on your requirements. Below is the LM Studio interface:
+
+![LM Studio Interface](./images/lm-studio.png)
+
+Key areas in the LM Studio interface:
+
+1. **Model Selection** - Choose which LLM to use for your prompt engineering
+2. **Message Input** - Area to type your prompts and messages
+3. **Settings Panel** - Configure various model parameters
+4. **Top-k Sampling** - Controls diversity by limiting token selection to top k options
+5. **Repeat Penalty** - Prevents repetitive text by penalizing already generated tokens
+6. **Top-p Sampling** - Uses probability distribution to select tokens (nucleus sampling)
+7. **Min-p Sampling** - Sets minimum probability threshold for token selection
+8. **Structured Output** - Configure JSON output format for structured responses
+
+## Resources
+
+- [Prompt Engineering Guide](https://www.promptingguide.ai/)
+- [LM Studio Documentation](https://lmstudio.ai/docs)
 
 [Back to Main Page](../index.html)
